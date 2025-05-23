@@ -1,12 +1,7 @@
-def in_autotests_we_trust(a, b):
-    if a == b:
-        print('Passed')
-    else:
-        print('Failed')
+import data
 
-
-in_autotests_we_trust(10, '10')
-
-in_autotests_we_trust(0, False)
-
-
+class TestUrbanRoutes:
+    def test_set_route(self):
+        # Add in S8
+        print('function created for set route')
+        pass
